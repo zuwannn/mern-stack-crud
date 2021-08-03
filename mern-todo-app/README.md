@@ -1,8 +1,3 @@
-# <p align="center" >---  First Part of mern todo app project  ---</p>
-
-In this first part of this series we’ve start to create the React front-end application for the MERN stack todo application.
-
-<br>
 
 # Getting Started with Create React App
 
