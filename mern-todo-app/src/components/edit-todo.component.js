@@ -99,7 +99,7 @@ export default class EditTodo extends Component {
                                     name="priorityOptions"
                                     id="priorityLow"
                                     value="Low"
-                                    checked={this.state.priority==='Low'}
+                                    checked={this.state.todo_priority==='Low'}
                                     onChange={this.onChangeTodoPriority}
                                     />
                             <label className="form-check-label">Low</label>
@@ -110,7 +110,7 @@ export default class EditTodo extends Component {
                                     name="priorityOptions"
                                     id="priorityMedium"
                                     value="Medium"
-                                    checked={this.state.priority==='Medium'}
+                                    checked={this.state.todo_priority==='Medium'}
                                     onChange={this.onChangeTodoPriority}
                                     />
                             <label className="form-check-label">Meduim</label>
@@ -121,7 +121,7 @@ export default class EditTodo extends Component {
                                     name="priorityOptions"
                                     id="priorityHigh"
                                     value="High"
-                                    checked={this.state.priority==='High'}
+                                    checked={this.state.todo_priority==='High'}
                                     onChange={this.onChangeTodoPriority}
                                     />
                             <label className="form-check-label">High</label>
@@ -132,7 +132,8 @@ export default class EditTodo extends Component {
                                     id="completedCheckbox"
                                     name="completedCheckbox"
                                     onChange={this.onChangeTodoCompleted}
-                                    checked={this.state.todo_completed} 
+                                    checked={this.state.todo_completed}
+                                    value={this.state.todo_completed}
                                     />
                             <label className="form-check-label" htmlFor="completedCheckbox">Completed</label>
                         </div>
