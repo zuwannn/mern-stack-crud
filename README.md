@@ -1,5 +1,5 @@
 # mern-stack-crud
- MERN Stack CRUD 
+ MERN Stack todo list
  - <b> M -> MongoDB | Mongoose
  - <b> E -> Express 
  - <b> R -> React ( Using create-react-app for client ) 
